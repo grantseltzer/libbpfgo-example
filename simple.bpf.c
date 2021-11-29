@@ -1,7 +1,8 @@
 //go:build ignore
-//+build ignore
+// +build ignore
+
 #include "vmlinux.h"
-#include <bpf/bpf_helpers.h> 
+#include <bpf/bpf_helpers.h>
 #include "simple.h"
 
 struct {
